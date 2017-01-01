@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Droid_logistique</id>
+    <version>1.0.0</version>
+    <title>Servodroid.logistique</title>
+    <authors>Thibault MONTAUFRAY</authors>
+    <owners>Servodroid</owners>
+    <licenseUrl>https://raw.githubusercontent.com/ThibaultMontaufray/Tools4Libraries/master/License</licenseUrl>
+    <projectUrl>https://github.com/ThibaultMontaufray/Manager-logistique</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/ThibaultMontaufray/Tools4Libraries/master/ManagersDevComponents/servodroidIconColor.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Interface with SNCF webservice. Data in real time (almost) with train details.</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Servodroid logistique sncf transport</tags>
+  </metadata>
+  <files>
+    <file src="lib\**\*.dll" target="lib" />
+    <file src="lib\**\*.xml" target="lib" />
+    <file src="lib\**\*.config" target="lib" />
+  </files>
+</package>

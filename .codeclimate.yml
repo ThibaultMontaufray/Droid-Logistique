@@ -1,0 +1,19 @@
+engines:
+  fixme:
+    enabled: true
+    config:
+      strings:
+      - FIXME
+      - BUG
+      - CUSTOM
+ratings:
+   paths:
+   - "app/**/*"
+   - "lib/**/*"
+   - "model/*"
+   - "view/*"
+   - "controler/*"
+   - "properties/*"
+   - "*"
+   - "**.cs"
+   - "**.xml"
